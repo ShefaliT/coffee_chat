@@ -48,7 +48,8 @@
         "patterns": [
           "Which items do you have?",
           "What do you sell?",
-          "What do you offer?"
+          "What do you offer?",
+          "What services do you offer?"
         ],
         "responses": [
           "We sell coffee. Buy and brew your favorite coffee from our website.",
@@ -140,13 +141,14 @@
           "I want to exchange my orders"
         ],
         "responses": [
-          "Sorry about the inconvenience. Can you please share your order id and registered number.",
-          "My apologies! Can you please share your order Id and registered number."
+          "Sorry about the inconvenience. Can you please share your order id and registered email.",
+          "My apologies! Can you please share your order Id and registered email."
         ]
       },
       {
         "tag": "mail",
         "patterns": [
+          "1234567890",
           "@gmail.com",
           "@yahoo.com"
         ],
