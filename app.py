@@ -10,13 +10,13 @@ db = SQLAlchemy()
 
 def create_app():
     app = Flask(__name__)
-    ENV = 'dev'
+    ENV = 'prod'
     if ENV == 'dev':
         app.debug = True
         app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:shef@localhost/chatbot'
     else:
         app.debug = False
-        app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://aupuhonhzrsows:0a999f8270423185c8d54e5c6c9b30ac6a0f642b9a9cd31919c15915e9d2eec8@ec2-18-211-108-143.compute-1.amazonaws.com:5432/da78dp17as9ic6'
+        app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://iocnuuuvfwlbrl:ec6b3e2d306ff777cb260b65e770435347be819bb5d2f081b1452fdfb121bc1a@ec2-3-229-252-6.compute-1.amazonaws.com:5432/d375sbm9t43v9i'
     
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     app.config['SECRET_KEY'] = 'secretkey123'
