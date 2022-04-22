@@ -1,0 +1,173 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "casual",
+        "patterns": [
+          "How are you?",
+          "How are you doing?",
+          "Hope you are well!"
+        ],
+        "responses": [
+          "I am good. Thanks for visiting! How can I help?",
+          "I am great! Thank you! How can I help?",
+          "I am great! I brewed my own coffee today. It is super fun."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What do you sell?",
+          "What do you offer?"
+        ],
+        "responses": [
+          "We sell coffee. Buy and brew your favorite coffee from our website.",
+          "We have different kinds of coffee. Please visit our shopping page to buy the kind of coffee you need."
+        ]
+      },
+      {
+        "tag": "search",
+        "patterns": [
+          "I am looking for roasted coffee.",
+          "I need to buy coffee",
+          "I am looking for coffee from",
+          "I want to buy coffee",
+          "I want to buy roasted beans"
+        ],
+        "responses": [
+          "We offer a wide range of Aromatic coffee. Please have a look at our shopping page.",
+          "We offer different kinds of coffee from ground coffee to instant coffee. Please take a look at our shopping page."
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {
+        "tag": "cost",
+        "patterns": [
+          "What is the price of coffee",
+          "How much does the coffee cost?",
+          "What is the cost of the coffee",
+          "What is the price"
+        ],
+        "responses": [ 
+      
+          "Instant Coffee: INR 449, Liquid Coffee: INR 629, Sachet Shots(pack of 1): INR 249, Ground Coffee: INR 349, Cold Brew: INR 449, Hot Brew: 379. Our premium coffee starts from INR 1999. Please check out the shop page for further details."
+        ]
+      },
+      {
+        "tag": "kind",
+        "patterns": [
+          "What kind of coffee do you offer?",
+          "What different kinds of coffee do you have?",
+          "What kind of coffee do you sell?"
+        ],
+        "responses": [
+          "We have Instant coffee, Liquid coffee, Hot brew, Cold brew, Ground Coffee and Sachet shots. We also offer a range of premium coffee."
+        ]
+      },
+      {
+        "tag": "OrderIssue",
+        "patterns": [
+          "My order has not arrived yet",
+          "I have received the wrong item",
+          "I want to return my order",
+          "I wish to return my order",
+          "I want to exchange my orders"
+        ],
+        "responses": [
+          "Sorry about the inconvenience. Can you please share your order id and registered number.",
+          "My apologies! Can you please share your order Id and registered number."
+        ]
+      },
+      {
+        "tag": "mail",
+        "patterns": [
+          "@gmail.com",
+          "@yahoo.com"
+        ],
+        "responses": [
+          "Thank you! Our support team will get back to you soon at your registered number.",
+          "Thank you! Our team will contact you soon on your registered number."
+        ]
+      },
+      {
+        "tag": "time",
+        "patterns": [
+          "What is the delivery time?",
+          "What are the delivery slots?",
+          "Delivery duration"
+        ],
+        "responses": [
+          "We deliver from 9am to 9pm. You can choose the duration in which you would like your item to be delivered."
+        ]
+      }
+      
+    ]
+  }
+  
+  

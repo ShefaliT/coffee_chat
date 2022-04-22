@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+<body>
+    
+    
+<div class="container">
+    {% extends "base.html" %}
+
+    {% block content %}
+    <h1 class="title">
+      Hi, {{ name }}! 
+    </h1>
+    <p>Click on the icon below to access our chat support.</p>
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <!-- <img src = "./static/images/support.png"/> -->
+                    <img src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/64/000000/external-support-business-and-finance-icongeek26-linear-colour-icongeek26-1.png"/>
+                    <!-- <img src="https://img.icons8.com/officexs/48/000000/bot.png"/> -->
+                    <!-- <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image"> -->
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat Assistant</h4>
+                    <p class="chatbox__description--header">Hi! My name is Zen. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="https://img.icons8.com/doodle/48/000000/chat.png"/>
+                <!-- <img src="https://img.icons8.com/clouds/60/000000/speech-bubble-with-dots.png"/> -->
+                
+            </button>
+        </div>
+    </div>
+</div>
+<script src="{{url_for('static', filename='app.js')}}"></script>
+
+<!-- <script> -->
+  <!-- $SCRIPT_ROOT = {{ request.script_root|tojson }}; -->
+<!-- </script> -->
+
+</body>
+{% endblock %}
+</html>
