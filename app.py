@@ -13,7 +13,7 @@ def create_app():
     ENV = 'prod'
     if ENV == 'dev':
         app.debug = True
-        app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:shef@localhost/chatbot'
+        app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:****@localhost/chatbot'
     else:
         app.debug = False
         app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://iocnuuuvfwlbrl:ec6b3e2d306ff777cb260b65e770435347be819bb5d2f081b1452fdfb121bc1a@ec2-3-229-252-6.compute-1.amazonaws.com:5432/d375sbm9t43v9i'
