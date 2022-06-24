@@ -19,7 +19,7 @@ def create_app():
         app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://iocnuuuvfwlbrl:ec6b3e2d306ff777cb260b65e770435347be819bb5d2f081b1452fdfb121bc1a@ec2-3-229-252-6.compute-1.amazonaws.com:5432/d375sbm9t43v9i'
     
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-    app.config['SECRET_KEY'] = 'secretkey123'
+    app.config['SECRET_KEY'] = '********'
    
 
     db.init_app(app)
